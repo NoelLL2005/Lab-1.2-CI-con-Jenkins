@@ -43,7 +43,7 @@ az vm create \
 az vm open-port --resource-group jenkinsems2026-rg --name jenkinsems-vm-2026 --port 8080 --priority 1010
 
 # conexion por ssh, si nos pide confirmación de fingerprint decir que sí, e introducir la contraseña
-ssh jenkinsuser@<ip>
+ssh jenkinsuser@<158.158.112.31>
 
 # mostrar el contenido del fichero por pantalla
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
