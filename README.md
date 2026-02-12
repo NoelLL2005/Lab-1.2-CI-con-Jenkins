@@ -50,3 +50,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 ```
+admin
+1234
+Noel
+noel.lopez@alumnos.upm.es
