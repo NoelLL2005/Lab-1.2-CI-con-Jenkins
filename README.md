@@ -33,7 +33,7 @@ az vm create \
   --name jenkinsems-vm-2026 \
   --image Ubuntu2204 \
   --admin-username jenkinsuser \
-  --admin-password PASSWORD-12-32CARACTERES-MAY-MIN-NUMERO-CARACTERESESPECIALES \
+  --admin-password 123456789aA!\
   --generate-ssh-keys \
   --public-ip-sku Standard \
   --custom-data jenkins-init-java21.sh \
